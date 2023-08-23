@@ -1,0 +1,16 @@
+current directory: /home/madan/railsproject/temp1/vendor/bundle/ruby/2.7.0/gems/debug-1.8.0/ext/debug
+/home/madan/.rvm/rubies/ruby-2.7.2/bin/ruby -I /home/madan/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0 -r ./siteconf20230823-14407-8vuqc3.rb extconf.rb
+creating Makefile
+
+current directory: /home/madan/railsproject/temp1/vendor/bundle/ruby/2.7.0/gems/debug-1.8.0/ext/debug
+make "DESTDIR=" clean
+
+current directory: /home/madan/railsproject/temp1/vendor/bundle/ruby/2.7.0/gems/debug-1.8.0/ext/debug
+make "DESTDIR="
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/madan/railsproject/temp1/vendor/bundle/ruby/2.7.0/gems/debug-1.8.0/ext/debug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 debug.so ./.gem.20230823-14407-fhnmk8/debug

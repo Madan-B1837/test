@@ -1,0 +1,17 @@
+current directory: /home/madan/railsproject/temp1/vendor/bundle/ruby/2.7.0/gems/racc-1.7.1/ext/racc/cparse
+/home/madan/.rvm/rubies/ruby-2.7.2/bin/ruby -I /home/madan/.rvm/rubies/ruby-2.7.2/lib/ruby/2.7.0 -r ./siteconf20230823-14407-16eoisz.rb extconf.rb
+checking for rb_block_call()... yes
+checking for rb_ary_subseq()... yes
+creating Makefile
+
+current directory: /home/madan/railsproject/temp1/vendor/bundle/ruby/2.7.0/gems/racc-1.7.1/ext/racc/cparse
+make "DESTDIR=" clean
+
+current directory: /home/madan/railsproject/temp1/vendor/bundle/ruby/2.7.0/gems/racc-1.7.1/ext/racc/cparse
+make "DESTDIR="
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/madan/railsproject/temp1/vendor/bundle/ruby/2.7.0/gems/racc-1.7.1/ext/racc/cparse
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20230823-14407-11rzhr9/racc
